@@ -1,0 +1,23 @@
+To: support@nexusmods.com
+Subject: Manual review request — Rayman 2 Randomizer Beta 0.1.5 (quarantined EXE)
+
+Hello Nexus Mods Support,
+
+I recently submitted my first public beta of Rayman 2 Randomizer for Rayman 2: The Great Escape.
+The main ZIP file was automatically quarantined, and I would like to request a manual review.
+
+Mod page: https://www.nexusmods.com/mods/1?game_id=10631&published=1
+Game ID: 10631 (the game is also awaiting initial approval)
+File: Rayman2Randomizer_Beta0.1.5_Public_Release.zip
+Version: 0.1.5
+
+The archive contains a Windows installer/launcher EXE, plus README, changelog, and other text files. The EXE embeds the native x86 randomizer DLL, which is copied into the game's Mods folder after backup of existing mod/config files. It runs Rayman 2 via Twofold (Ray2x.exe). If Twofold is missing, the user is asked for permission before the launcher downloads the latest release from the official GitHub repository (spitfirex86/Twofold).
+
+The source for the C++ game-mod DLL and the C# launcher, compilation instructions, a security-behavior description, and SHA-256 hashes are available here:
+[PASTE PUBLIC SOURCE REPOSITORY URL OR LINK TO SOURCE ARCHIVE]
+
+I developed this project with substantial AI coding assistance and personally tested the public beta on Windows. I understand that automated security checks are important, and I'm happy to provide additional source files or technical details needed for your review. I am not requesting that the security checks be bypassed.
+
+Could you please review the quarantined file and let me know if any additional information or changes are required? My game submission is also pending approval.
+
+Thank you very much for your help!

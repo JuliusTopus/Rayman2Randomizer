@@ -1,0 +1,12 @@
+SHA-256 (published Beta 0.1.5 files and original review sources)
+================================================================
+
+f06ed9eb07ada7234d2dc1e094ddbf9da8bfa507e5c7ea96ffcccfd4ee930940  Rayman2Randomizer_Beta0.1.5_Public.exe
+8b29a5bbdc9bb6052206a05ee452265b449ff882613d80974bf1fe404cb36c75  Rayman2Randomizer.dll (native x86 DLL embedded verbatim in the EXE)
+46311ada323a8dd1466d518b007a641323a62f2593aa8705b894fd66f7524f9e  Rayman2Randomizer_Beta0.1.5_Public_Release.zip
+a6917218cf9daac99352f547120f4ca159d5c41ada7623dfc9e619cb5cacac9b  src/dllmain.cpp
+8a6737372f6d0aa0b71b724456df6e4f909e7855e137920a6859b7ab96029db6  src/Rayman2Randomizer_Launcher.cs
+
+The distributed EXE is a PE32 Windows .NET assembly. Its embedded native game-mod DLL
+is PE32 x86 (0x014c); the exact DLL bytes occur in the EXE as a managed resource.
+The native DLL's version marker is v0.1.5-beta-rc1.

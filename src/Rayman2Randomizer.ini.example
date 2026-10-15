@@ -1,0 +1,17 @@
+[Randomizer]
+; Rayman 2 Randomizer Beta 0.1.5 - Release Candidate
+; Public build: enemies unavailable, items experimental, research functions disabled.
+Enabled=1
+Seed=1829225977
+Stats=1
+RandomMovementSpeeds=0
+Music=1
+MusicAllAPM=1
+Sounds=0
+Textures=0
+Texts=0
+Items=0
+Enemies=0
+EnemiesMenuTest=0
+EnemiesWorldRemixTest=0
+TestingPowers=0
